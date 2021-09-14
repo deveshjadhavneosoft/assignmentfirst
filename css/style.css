@@ -1,0 +1,631 @@
+/*index page*/
+
+html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  a {
+    text-decoration: none;
+}
+.container {
+    
+    width: 90%;
+    margin: 0 auto;
+}
+.container {
+    
+    display: table;
+    clear: both;
+}
+/* header footer bg color*/
+.header,
+.footer {
+    background: #282a30 ;
+    color: #fff;
+}
+
+/* block part*/
+.middle {
+    background: #fff;
+}
+
+/* content part*/
+.hero {
+    background: #333 url(../images/home2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 465px;
+}
+.logo {
+    float: left;
+    margin: 5px 17px 0 0;
+}
+.slogan {
+    float: left;
+    margin-top: 30px;
+    font: italic 16px "Times New Roman", Times, Georgia, serif;
+    color: rgba(255, 255, 255, .35);
+}
+.nav {
+    float: right;
+}
+.nav li {
+    float: left;
+    border-left: 2px solid #0f1114;
+    list-style: none;
+}
+.nav a {
+   
+    display: block;
+    line-height: 62px;
+   
+    
+}
+.nav li a i{
+    padding-right: 5px;
+}
+
+.container {
+    content: "";
+    display: table;
+    clear: both;
+}
+.nav a {
+    display: block;
+    line-height: 62px;
+    padding: 0 24px 0 53px;
+    color: #fff;
+}
+
+
+body {
+    font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #55606e;
+}
+.nav a:hover {
+    background-color: #13151a;
+}
+.hero {
+    background: #333 url(../images/home1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 465px;
+    color: #fff;
+    text-align: center;
+    padding-top: 31px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+.hero p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(221, 212, 212);
+    word-spacing: 5px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 100;
+    max-width: 715px;
+    margin: 0 auto 51px;
+}
+.hero p strong {
+    font-weight: 700;
+}
+
+/* buttons*/
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 55px;
+    margin: 0 11px;
+}
+.btn-green {
+    background-color: #83c129;
+    box-shadow: 0 4px 0 #518719;
+}
+.btn-blue {
+    background-color: #068fd5;
+    box-shadow: 0 4px 0 #046b9f;
+}
+
+/*footer*/
+.footBar {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    background-color: #1a1e24;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color: #5d7694;
+  }
+  .list a {
+    display: block;
+    text-decoration: none;
+    color: #5d7694;
+  }
+  
+  .list :nth-child(1) {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .leftFoot {
+    display: flex;
+    justify-content: space-between;
+    width: 43.75rem;
+    line-height: 40px;
+  }
+  
+  .rightFoot p {
+    margin-top: 169px;
+  }
+  
+  .socialimg i {
+    color: white;
+    margin-left: 10px;
+  }
+
+  /*footer end*/
+
+  /*block start*/
+.container,
+.blocks{
+    content: "";
+    display: table;
+    clear: both;
+}
+.blocks .block {
+    margin-top: 70px;
+    float: left;
+    width: 351px;
+    margin-left: 43px;
+}
+.blocks .block {
+    margin-left: 0;
+}
+.blocks .block {
+    float: left;
+    width: 351px;
+    margin-left: 43px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid #919397;
+}
+.blocks .block:first-child {
+    margin-left: 0;
+}
+.blocks img {
+    vertical-align: top;
+}
+.blocks .image {
+    margin-bottom: 13px;
+}
+.blocks .photo {
+    float: left;
+}
+.blocks .text {
+    float: right;
+    width: 258px;
+}
+.blocks .phrase {
+    color: #454e5c;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.blocks .info {
+    color: #8e959c;
+    font-size: 14px;
+
+}
+
+/*news start*/
+.news {
+    margin-top: 50px;
+    border-top:  2px solid #b4adad ;
+   
+    padding: 31px 75px;
+    margin-bottom: 30px;
+
+   
+}
+.news .one {
+    float: left;
+    width: 352px;
+    margin-left: 42px;
+   
+}
+.news .one:first-child {
+    margin-left: 0;
+  
+}
+.news .img {
+    float: left;
+    width: 98px;
+    text-align: center;
+    
+}
+.news .text {
+    float: right;
+    width: 234px;
+    padding-top: 4px;
+    
+}
+.news img {
+    border-radius: 50%;
+    
+}
+.news time {
+    font-size: 14px;
+    color: #8a8c8f;
+    
+}
+.news p {
+    margin: 4px 0 0;
+    
+}
+.news p a {
+    text-decoration: none;
+    color: rgb(51, 46, 46);
+    
+}
+
+/*news end*/
+.border{
+   
+     border: 1px solid rgb(143, 140, 140);
+     margin-top: 80px;
+   
+}
+
+/* google fonts*/
+.featured {
+    padding-left: 50px;
+    margin-bottom: 0px;
+    font-family: 'Text Me One', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    }
+    .featured * {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .featured ul li {
+        margin-right: 38px;
+    }
+    .gfont{
+        font-family:  'UnifrakturCook', cursive;
+        font-size: 40px;
+    }
+    .gfont1{
+        font-family: 'Potta One', cursive;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .gfont2{
+        font-family: 'Text Me One', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .gfont3{
+        font-family: 'Kumar One', cursive;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .featured .title {
+        margin-right: 20px;
+    }
+    .featured a {
+        opacity: .5;
+    }
+    .featured a:hover {
+        opacity: 1;
+    }
+    /* google font end*/
+
+
+
+/*forms start*/
+.forms .container{
+    max-width: 90%;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+ .forms .container .title{
+     background: rgb(105, 103, 103);
+    color: rgb(252, 252, 252);
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 50%;
+    max-width: 60%;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+ 
+
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .category{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   form .category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+   #dot-1:checked ~ .category label .one,
+   #dot-2:checked ~ .category label .two,
+   #dot-3:checked ~ .category label .three{
+     background: #9b59b6;
+     border-color: #d9d9d9;
+   }
+   form input[type="radio"]{
+     display: none;
+   }
+   form .button{
+       align-items: center;
+       text-align: center;
+       width:50%;
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: rgb(92, 88, 88);
+   }
+  
+   @media(max-width: 584px){
+   .forms .container{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .category{
+      width: 100%;
+    }
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    }
+    @media(max-width: 459px){
+    .forms .container .content .category{
+      flex-direction: column;
+    }
+  }
+
+  /*form end*/
+
+
+
+
+
+  /*login*/
+  .login .container{
+    background: #fff;
+    max-width: 80%;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  }
+  .login .container form .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    
+  }
+ 
+  .login .container form .input-box{
+    width: 50%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+    
+  }
+  .login .container form .input-box input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+  }
+  .login .container form .underline::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    bottom: 0;
+  }
+  
+ 
+  .login .container form .button{
+    margin: 40px 0 20px 0;
+  }
+  .login .container .input-box input[type="submit"]{
+    background:rgb(238, 59, 238);
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+ 
+  .login .container .option{
+    font-size: 14px;
+    text-align: center;
+  }
+  .login .container .facebook a,
+  .login .container .twitter a{
+      text-align: center;
+    display: block;
+    height: 45px;
+    width: 70%;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .login .container .facebook i,
+  .login .container .twitter i{
+    padding-right: 12px;
+    font-size: 20px;
+  }
+  .login .container .twitter a{
+    background:  rgb(21, 180, 185);
+    margin: 20px 0 15px 0;
+  }
+ 
+  .login .container .facebook a{
+    background: rgb(56, 56, 151);
+    margin: 20px 0 50px 0;
+  }
+
+  /*login end*/
+  
+  
+/*mediaquery*/
+@media screen and (max-width:1020px){
+    #header{  width:100%}
+    #hero{ width:100%}
+    #block{ width:100%}
+    #featured{width: 100% }
+    #footer{width: 100%}
+    #menus{display:block}
+    #content{width: 100%;}
+    #blocks{display: block;padding-right: 50%;}
+    #news{display: block;padding-right: 50%;}
+    #border{padding-top: 200px;border-style: none;}
+    #footernav{width: 50%;height: 100%;}  
+    .footBar {flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;}
+    .footBar .rightFoot :nth-child(2) {
+        margin-top: 40px;
+        text-align: center;}
+    .socialimg {
+        text-align: center;}
+    .featured p {
+        font-size: 1.3rem;}
+}
+@media screen and (max-width:810px){
+    
+    #header{ width:100%}
+    #hero{ width:100%}
+    #block{ width:80%}
+    #featured{width: 80% }
+    .footer-nav{width: 100%}
+    
+    #content{width: 100%;}
+    #blocks{display: block;width: auto;}
+    #news{display: block;width: auto;}
+    #border{padding-top: 200px;border-style: none;}
+    #footernav{width: 50%;height: 100%;}  
+    .footBar {flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;}
+    .footBar .rightFoot :nth-child(2) {
+        margin-top: 40px;
+        text-align: center;}
+    .socialimg {
+        text-align: center;}
+    .featured p {
+        font-size: 1.3rem;}
+   
+   }
+   @media screen and (max-width:510px){
+    #header{  width:100%;}
+    #hero{ width:100%}
+    #block{ width:80%}
+    #featured{width: 80% }
+    .footer-nav{width: 100%}
+    .nav{padding-right: 40%;}
+    #content{width: 100%;}
+    #blocks{display: block;width: auto;}
+    #news{display: block;width: auto;}
+    #border{padding-top: 200px;border-style: none;}
+    #footernav{width: 50%;height: 100%;}  
+    .footBar {flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;}
+    .footBar .rightFoot :nth-child(2) {
+        margin-top: 40px;
+        text-align: center;}
+    .socialimg {
+        text-align: center;}
+    .featured p {
+        font-size: 1.3rem;}
+        
+    
+   }
